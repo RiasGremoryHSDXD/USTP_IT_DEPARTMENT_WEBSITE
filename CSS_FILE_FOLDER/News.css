@@ -1,0 +1,55 @@
+.ContentContain ul
+{
+    display: flex;
+    justify-content: center;
+}
+
+.ContentContain li
+{
+    background-color: white;
+    box-shadow: -3px -3px 5px grey;
+    margin: 10px;
+    width: 250px;
+    height: 400px;
+}
+
+.ContentContain h3
+{
+    text-align: center;
+}
+.ContentContain img
+{
+    border-bottom: 2px solid black;
+    width: 250px;
+    height: 250px;
+}
+
+.ContentContain li:hover
+{
+    box-shadow: 5px 5px 5px grey;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.Center 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Center button
+{
+    border: none;
+    color: white;
+    border-radius: 5px;
+    background-color: #080147;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.Center button:hover
+{
+    color: #fdb316;
+    cursor: pointer;
+}

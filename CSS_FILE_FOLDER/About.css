@@ -1,0 +1,47 @@
+.AboutUsDesignContain
+{
+    background-color: whitesmoke;
+}
+
+.Video
+{
+    display: flex;
+    justify-content: center;
+    box-shadow: 10px 10px 10px grey;
+}
+
+.Video img
+{
+    width: 750px;
+    height: 400px;
+}
+
+.Content h3
+{
+    font-family: Arial, "Sans serif";
+    border-bottom: 2px solid darkblue;
+    color: darkblue;
+    margin-top: 50px;
+    margin-left: 20px;
+
+}
+.Content p
+{
+    font-family: Arial, "Sans serif";
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.Content li
+{
+    font-family: Arial, "Sans serif";
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.Center
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

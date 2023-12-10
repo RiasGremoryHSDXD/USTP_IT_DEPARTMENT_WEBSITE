@@ -1,0 +1,126 @@
+.FooterBarContain
+{
+    position: relative;
+    display: flex;
+    background-color: #fdb316;
+    width: 100%;
+    height: 200px;
+}
+
+.FooterBarContent
+{
+    width: 100%;
+    height: 100%;
+}
+
+.FooterBarContain ul
+{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.FooterBarContain li
+{
+    width: 25%;
+    height: 100%;
+    margin: 0;
+}
+
+.ImgContain
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 100%;
+}
+
+.ImgContain img
+{
+    width: 150px;
+    height: 150px;
+}
+
+.ContactUsContain
+{
+    border-right: 2px solid black;
+    width: 100%;
+    height: 80%;
+}
+
+.ContactUsContain p
+{   
+    color: black;
+    font-size: 20px;
+}
+
+.ContactContent p
+{
+    margin: 0;
+}
+
+.ContactContent div:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.LinkContain
+{
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid black;
+    margin-top: 20px;
+}
+
+.LinkContain p
+{   
+    color: black;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.LinkContain a
+{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.LinkContain a:hover
+{
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.OtherWebsite
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.OtherWebsite p
+{
+    color: black;
+    font-size: 20px;
+}
+
+.OtherWebsite a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.OtherWebsite a:hover
+{
+    text-decoration: underline;
+    font-size: 25px;
+}

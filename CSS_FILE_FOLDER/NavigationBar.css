@@ -1,0 +1,66 @@
+body
+{
+    margin: 0;
+} 
+
+.NavBarContain
+{
+    position: fixed;
+    background-color: white;
+    border-bottom: 2px solid black;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    z-index: 1;
+}
+
+.NavBarContain img
+{
+    width: 70px;
+    height: 70px;
+}
+
+.NavBarContain h4
+{
+    position: absolute;
+    font-family: Tahoma, sans-serif;
+    top: 0;
+    left: 5.5%;
+    font-size: 13px;
+}
+
+
+.NavBarContain ul
+{
+    position: absolute;
+    list-style-type: none;
+    display: flex;
+    top: 0;
+    right: 0;
+    margin: 0;
+    margin-right: 10px;
+}
+
+.NavBarContain li
+{
+    margin-top: 25px;
+}
+.NavBarContain li a
+{
+    text-decoration: none;
+    color: black;
+    padding: 27.5px 10px  
+}
+
+.NavBarContain li a:hover
+{   
+    background-color: gray;    
+}
+
+.NavSpace
+{
+    background-color: yellow;
+    border-bottom: 2px solid black;
+    width: 100%;
+    height: 70px;
+}

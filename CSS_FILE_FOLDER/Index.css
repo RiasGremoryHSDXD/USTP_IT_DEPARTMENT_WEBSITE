@@ -1,0 +1,153 @@
+.IndexDesignContain
+{
+    width: 100%;
+    height: 100%;
+}
+
+.Center
+{   
+    /* background-color: rebeccapurple; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.CITCText
+{
+    font-family: Arial, "Sans serif";
+    font-size: 30px;
+}
+.SlideFrame
+{
+    /* background-color: red; */
+    display: flex;
+    overflow: hidden;
+    width: 81.5%;
+    height: 396px;
+}
+
+.SlideFrame img
+{
+    animation: SlideImage 8s linear 5s infinite alternate;
+}
+
+@keyframes SlideImage 
+{
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+        transform: translateX(-25%);
+    }
+    50%{
+        transform: translateX(-50%);
+    }
+    75%{
+        transform: translateX(-75%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+.AboutProgram
+{
+    background-color: #fdb316;
+    margin-top: 20px;
+    width: 81.5%;
+    height: 100%;
+}
+.AboutProgram h3
+{
+    font-family: Arial, "Sans serif";
+    display: flex;
+    justify-content: center;
+}
+
+.AboutProgram p
+{
+    font-family: Arial, "Sans serif";
+    text-indent: 50px;
+    font-size: 20px;
+    margin: 50px;
+}
+
+.ProgramOutcome
+{
+    background-color: white;
+    margin-top: 20px;
+    width: 81.5%;
+    height: 100%;
+}
+
+.ProgramOutcome h3
+{   
+    display: flex;
+    color: #080147;
+    justify-content: center;
+}
+
+.ProgramOutcome p
+{
+    font-family: Arial, "Sans serif";
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.ProgramOutcome li
+{
+    font-family: Arial, "Sans serif";
+    color: black;
+    margin-left: 50px;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.CareerOpportunities
+{
+    background-color: #080147;
+    margin-top: 20px;
+    width: 81.5%;
+    height: 100%;
+}
+
+.CareerOpportunities h3
+{
+    color: white;
+    margin-left: 50px;
+}
+
+.CareerOpportunities li
+{
+    font-family: Arial, "Sans serif";
+    color: white;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.Curriculum
+{
+    background-color: #fdb316;
+    border-radius: 4px;
+    margin-top: 20px;
+    width: 81.5%;
+    height: 100%;
+}
+
+.Curriculum p
+{
+    display: flex;
+    justify-content: center;
+    color: #080147;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;
+}
+
+.Curriculum p:hover
+{
+    color: red;
+    cursor: pointer;
+}
