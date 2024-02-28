@@ -1,5 +1,5 @@
 # USTP_IT_DEPARTMENT_WEBSITE
 
-To see the website. copy the link below and paste it in URL.
+To see the website. copy the link below and paste it in URL or clicked.
 
 https://riasgremoryhsdxd.github.io/USTP_IT_DEPARTMENT_WEBSITE/HTML_FILE_FOLDER/Index.html
